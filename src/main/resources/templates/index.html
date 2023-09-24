@@ -19,12 +19,12 @@
 		</thead>
 		<tbody>
 			<tr th:each="Persona:${personas}">
-				<td>${Persona.id}</td>
-				<td>${persona.name}</td>
-				<td>${persona.telefono}</td>
+				<td th:text="${Persona.id}"></td>
+				<td th:text="${Persona.name}"></td>
+				<td th:text="${Persona.telefono}"></td>
 				<td>
 					<a class="btn btn-warning">Editar</a>
-					<a class="btn btn-warning">Eliminar</a>
+					<a class="btn btn-danger">Eliminar</a>
 				</td>
 			</tr>
 		</tbody>

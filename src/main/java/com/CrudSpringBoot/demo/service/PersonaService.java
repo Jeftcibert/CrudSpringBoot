@@ -17,8 +17,8 @@ public class PersonaService implements inPersonaService{
 
 	@Override
 	public List<Persona> listar() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return (List<Persona>)data.findAll();
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class Persona {
 
 	// Constructor
 	public Persona(int id, String name, String telefono) {
-		super();
+		
 		this.id = id;
 		this.name = name;
 		this.telefono = telefono;

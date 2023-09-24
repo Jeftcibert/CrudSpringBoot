@@ -15,7 +15,7 @@ import com.CrudSpringBoot.demo.modelo.Persona;
 //Implementamos los metodos que creamos en las interfaces
 public class PersonaService implements inPersonaService{
 	
-	@Autowired
+	@Autowired 
 	private InPersona data;
 
 	@Override
@@ -36,8 +36,10 @@ public class PersonaService implements inPersonaService{
 		return 0;
 	}
 
+	
+
 	@Override
-	public void delete() {
+	public void delete(int id) {
 		// TODO Auto-generated method stub
 		
 	}

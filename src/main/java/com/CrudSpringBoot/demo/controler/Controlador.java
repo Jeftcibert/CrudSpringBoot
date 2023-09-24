@@ -22,9 +22,9 @@ public class Controlador {
 	@GetMapping("/listar")
 	public String listar(Model model) {
 
-		List<Persona> personas = service.listar();
+		List<Persona> persona = service.listar();
 //		con la palabra model y el addAttibute enviamos la lista al formulario
-		model.addAttribute("persona", personas);
+		model.addAttribute("personas", persona);
 		return "index";
 	}
 }

@@ -4,11 +4,14 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.CrudSpringBoot.demo.interfaceService.inPersonaService;
 import com.CrudSpringBoot.demo.interfaces.InPersona;
 import com.CrudSpringBoot.demo.modelo.Persona;
 
+
+@Service
 //Implementamos los metodos que creamos en las interfaces
 public class PersonaService implements inPersonaService{
 	
